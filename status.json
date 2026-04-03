@@ -1,0 +1,41 @@
+{
+  "last_updated": "2026-04-03",
+  "components": [
+    {
+      "name": "Protocol Research",
+      "status": "in_progress",
+      "description": "Capturing and documenting network traffic between the Rec Room client and official servers.",
+      "notes": "20 subdomains discovered via TLS SNI sniffing. See docs/api/subdomains.md."
+    },
+    {
+      "name": "API Documentation",
+      "status": "in_progress",
+      "description": "Building a reference of all known endpoints, request/response formats, and auth flows.",
+      "notes": "Subdomain map complete. Endpoint details still unknown due to TLS encryption."
+    },
+    {
+      "name": "REST API Server",
+      "status": "not_started",
+      "description": "Account management, room listings, inventory, friends — the full web backend.",
+      "notes": ""
+    },
+    {
+      "name": "Photon Relay",
+      "status": "not_started",
+      "description": "Reimplementing or replacing the Photon SDK layer for real-time multiplayer.",
+      "notes": ""
+    },
+    {
+      "name": "Auth System",
+      "status": "not_started",
+      "description": "Login, accounts, and sessions — open so anyone can connect without the official backend.",
+      "notes": ""
+    },
+    {
+      "name": "Client Redirect",
+      "status": "not_started",
+      "description": "Patching or proxying the client to connect to RestoRoom servers after June 1st.",
+      "notes": ""
+    }
+  ]
+}
