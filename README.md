@@ -1,4 +1,13 @@
-# 🏠 RestoRoom
+<p align="center">
+<img src="img/RestoRoomLogoTransparent.png" width="300" height="300">
+</p>
+
+# RestoRoom
+
+
+
+
+
 
 > **Early WIP** — A community-driven reimplementation of the Rec Room servers, keeping Rec Room alive past June 1st, 2026.
 

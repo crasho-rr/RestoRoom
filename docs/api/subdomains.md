@@ -1,7 +1,7 @@
 # rec.net Subdomains
 
 Discovered via TLS SNI sniffing using Wireshark during a normal play session on April 3rd, 2026.
-Captured by [@PoimeYT](https://github.com/PoimeYT).
+Captured by [@crasho-rr](https://github.com/crasho-rr) and [@PoimeYT](https://github.com/PoimeYT).
 
 > [!NOTE]
 > All traffic is TLS encrypted. Subdomain names and server IPs are visible but request/response content is not. Confidence levels are based on subdomain names and connection timing, not actual request inspection.
@@ -19,6 +19,7 @@ Captured by [@PoimeYT](https://github.com/PoimeYT).
 | `match.rec.net` | Matchmaking | High |
 | `chat.rec.net` | In-game chat | High |
 | `lists.rec.net` | Friend lists, block lists | High |
+| `leaderboard.rec.net` | Leaderboards for rooms | High |
 | `clubs.rec.net` | Clubs / groups | High |
 | `econ.rec.net` | Economy, currency (tokens) | High |
 | `commerce.rec.net` | Shop, purchases, transactions | High |
